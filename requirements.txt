@@ -1,2 +1,4 @@
 fastapi
 Jinja2
+uvicorn
+gunicorn
