@@ -1,2 +1,1 @@
-web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker backend:app
-web: gunicorn -w 2 -k uvicorn.workers.UvicornWorker frontend:app
+web: uvicorn-gunicorn-standalone --workers 4 --threads 4 --bind 0.0.0.0 backend:app frontend:app
