@@ -4,7 +4,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi.requests import Request
 from API import Security
 
-app = FastAPI()
+app = FastAPI(root_path="/api/")
 
 @app.get("/test/{item_id}")
 async def test(item_id:str):
