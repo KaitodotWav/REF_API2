@@ -6,6 +6,10 @@ from API import Security
 
 app = FastAPI(root_path="/api/")
 
+@app.get("/")
+async def main():
+    return ("hi": "it worked")
+
 @app.get("/test/{item_id}")
 async def test(item_id:str):
     return {"hello": item_id}
