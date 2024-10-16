@@ -10,7 +10,10 @@ log.addHandler(logHandler)
 
 #credentials
 log.info("importing credentials")
-os.environ["HDB"] = [var for var in open(".db", "r")][0]
+try:
+    print(os.environ["HDB"])
+except:
+    os.environ["HDB"] = [var for var in open(".db", "r")][0]
 
 #vars
 log.info("creating global variables")
