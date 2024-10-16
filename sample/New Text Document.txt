@@ -1,0 +1,8 @@
+auth link = https://accounts.google.com/o/oauth2/v2/auth?
+
+https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=https://developers.google.com/oauthplayground&prompt=consent&response_type=code&client_id=407408718192.apps.googleusercontent.com&scope=https://spreadsheets.google.com/feeds/&access_type=offline
+
+4/0AQlEd8wxyabpewICjzqpdMaPYoBY_1q_W-AbUfh8-ilkkee-SiCKVKHz_yWod3W7inhojg
+https://developers.google.com/oauthplayground/?code=4/0AQlEd8wxyabpewICjzqpdMaPYoBY_1q_W-AbUfh8-ilkkee-SiCKVKHz_yWod3W7inhojg&scope=https://www.googleapis.com/auth/spreadsheets
+
+access token url = oauth2.googleapis.com/token

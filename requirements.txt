@@ -3,3 +3,6 @@ Jinja2
 uvicorn
 gunicorn
 jinja2
+gspread
+psycopg2
+SQLAlchemy

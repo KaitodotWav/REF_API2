@@ -1,0 +1,110 @@
+{
+    "null": {
+        "subjects": [
+            "ADOBE PHOTO SHOP (APPROX)",
+            "MICROSOFT OFFICE",
+            "TROUBLE\nSHOOTING",
+            "GRAPHIC DESIGN",
+            "WEBPAGE DESIGN (APPROX)",
+            "BASIC\nNEWORKING",
+            "GAME DEV 1",
+            "GAME DEV 2",
+            "ROBOTICS 1",
+            "ROBOTICS 2",
+            "DIGITAL\nANIMATION 1",
+            "DIGITAL\nANIMATION 2",
+            "MOB DEV 1 \\ PROG 1",
+            "MOB DEV 2 \\ PROG 2",
+            "MICROSOFT OS (NOT IN SUBJECT LIST)"
+        ],
+        "count": [
+            16,
+            17,
+            29,
+            36,
+            22,
+            20,
+            23,
+            16,
+            59,
+            3,
+            12,
+            28,
+            24,
+            12,
+            12
+        ]
+    },
+    "1 - 3 PM": {
+        "subjects": [
+            "ADOBE PHOTO SHOP (APPROX)",
+            "MICROSOFT OFFICE",
+            "TROUBLE\nSHOOTING",
+            "GRAPHIC DESIGN",
+            "WEBPAGE DESIGN (APPROX)",
+            "BASIC\nNEWORKING",
+            "GAME DEV 1",
+            "GAME DEV 2",
+            "ROBOTICS 1",
+            "ROBOTICS 2",
+            "DIGITAL\nANIMATION 1",
+            "DIGITAL\nANIMATION 2",
+            "MOB DEV 1 \\ PROG 1",
+            "MOB DEV 2 \\ PROG 2",
+            "MICROSOFT OS (NOT IN SUBJECT LIST)"
+        ],
+        "count": [
+            65,
+            72,
+            125,
+            30,
+            138,
+            105,
+            76,
+            68,
+            180,
+            52,
+            146,
+            21,
+            45,
+            31,
+            2
+        ]
+    },
+    "10 - 12 AM": {
+        "subjects": [
+            "ADOBE PHOTO SHOP (APPROX)",
+            "MICROSOFT OFFICE",
+            "TROUBLE\nSHOOTING",
+            "GRAPHIC DESIGN",
+            "WEBPAGE DESIGN (APPROX)",
+            "BASIC\nNEWORKING",
+            "GAME DEV 1",
+            "GAME DEV 2",
+            "ROBOTICS 1",
+            "ROBOTICS 2",
+            "DIGITAL\nANIMATION 1",
+            "DIGITAL\nANIMATION 2",
+            "MOB DEV 1 \\ PROG 1",
+            "MOB DEV 2 \\ PROG 2",
+            "MICROSOFT OS (NOT IN SUBJECT LIST)"
+        ],
+        "count": [
+            127,
+            154,
+            119,
+            164,
+            122,
+            160,
+            103,
+            103,
+            167,
+            60,
+            121,
+            121,
+            103,
+            115,
+            28
+        ]
+    }
+}
