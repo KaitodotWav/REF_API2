@@ -27,10 +27,10 @@ for raw_key in raw_data:
 #credentials
 log.info("importing credentials")
 try:
-    os.environ["HDB"] = [var for var in open(".db", "r")][0]
+    os.environ["HDB"] = os.environ["DATABASE_URL"]
 except:
+    log.critical("URL doesnt exist switching to monke!")
     os.environ["HDB"] = potato[".db"]
-    log.critical("database file missing switching to potato variables")
 finally:
     os.environ["DB_Status"] = "STARTUP"
 #os.environ["DB_Status"] = "ERROR"
