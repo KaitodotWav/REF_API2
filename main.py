@@ -3,7 +3,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.requests import Request
 from API import DataHandler
-import os, logging
+import os, logging, API
 
 log = logging.getLogger("REF SERVER")
 
@@ -48,6 +48,17 @@ async def login(request: Request):
     }
     return templates.TemplateResponse("admin2/login.html", context)
 
+@app.get("/signup")
+async def login(request: Request):
+    context = {
+        "request":request,
+        "title": "REF MARKETING",
+        "logo_title1":"REF",
+        "logo_title2":"Marketing",
+        "web":WebPage
+    }
+    return templates.TemplateResponse("admin2/login.html", context)
+
 @app.get("/scanner")
 async def base(request: Request):
     context = {
@@ -61,3 +72,6 @@ async def base(request: Request):
 
 if __name__ == "__main__":
     DB = DataHandler.DB()
+    print
+    a = DB.execute("SELECT * FROM Auth")
+    print(a)

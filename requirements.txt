@@ -6,3 +6,6 @@ jinja2
 gspread
 psycopg2
 SQLAlchemy
+bcrypt
+qrcode
+pillow
