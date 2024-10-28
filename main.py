@@ -70,8 +70,3 @@ async def base(request: Request):
     }
     return templates.TemplateResponse("admin2/scanner.html", context)
 
-if __name__ == "__main__":
-    DB = DataHandler.DB()
-    print
-    a = DB.execute("SELECT * FROM Auth")
-    print(a)
